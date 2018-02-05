@@ -36,6 +36,11 @@ gem 'devise'
 gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
 gem 'jquery-rails'
+gem 'stock_quote'
+# show font-awesome icons
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.3'
+gem "responders"
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]

@@ -146,4 +146,8 @@ Style/SymbolArray:
 # Configuration parameters: AllowHeredoc, AllowURI, URISchemes, IgnoreCopDirectives, IgnoredPatterns.
 # URISchemes: http, https
 Metrics/LineLength:
+  Exclude:
+    - 'db/**/*'
+    - 'config/**/*'
   Max: 120
+
