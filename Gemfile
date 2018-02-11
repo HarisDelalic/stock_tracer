@@ -38,7 +38,7 @@ gem 'devise-bootstrap-views'
 gem 'jquery-rails'
 gem 'stock_quote'
 # show font-awesome icons
-gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.3'
+gem 'font-awesome-rails'
 gem "responders"
 
 group :development, :test do

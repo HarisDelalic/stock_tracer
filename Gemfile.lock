@@ -261,7 +261,7 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   devise
   devise-bootstrap-views
-  font-awesome-rails (~> 4.7, >= 4.7.0.3)
+  font-awesome-rails
   haml-lint
   jbuilder (~> 2.5)
   jquery-rails
