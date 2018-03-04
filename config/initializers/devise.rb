@@ -1,5 +1,6 @@
 # frozen_string_literal: true
-
+CLIENT_ID='562680775403-q61c6rv3k73s9ajeulo1svf9pjsiurd9.apps.googleusercontent.com'
+CLIENT_SECRET='q3gpr4VnqBPCx873_E9B2f9v'
 # Use this hook to configure devise mailer, warden hooks and so forth.
 # Many of these configuration options can be set straight in your model.
 Devise.setup do |config|
@@ -253,7 +254,9 @@ Devise.setup do |config|
   # Add a new OmniAuth provider. Check the wiki for more information on setting
   # up on your models and hooks.
   # config.omniauth :github, 'APP_ID', 'APP_SECRET', scope: 'user,public_repo'
+  #
 
+  config.omniauth :google_oauth2, CLIENT_ID, CLIENT_SECRET, {}
   # ==> Warden configuration
   # If you want to use other strategies, that are not supported by Devise, or
   # change the failure app, you can configure them inside the config.warden block.
